@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    background-color: #1c2230;
+}
+
+/* ========== 
+HEADER 
+========== */
+
+.navbar .nav-link, 
+.navbar .navbar-brand {
+color: #fff;
+
+}
+
+.navbar-brand img{
+    width: 90px;
+}
+
+/* ========== 
+SECTION HERO 
+========== */
+
+section.hero{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+section.hero article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    color: #fff;
+    text-align: center;
+}
+
+/* ========== 
+SECTION SERVICIOS
+========== */
+
+section.servicios .elServicio{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* ========== 
+SECTION PRODUCTIVO
+========== */
+
+
+section.productivo{
+    margin: 0 auto;
+    max-width: 900px;
+    display: flex;
+    align-items: center; /*alinea al eje horizontals*/
+}
+
+section.productivo article{
+    color: #fff;
+
+}
